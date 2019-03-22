@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07638A872244CDA70055C96A /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07638A862244CDA70055C96A /* Extension+UIView.swift */; };
+		07B0350F22438CE4005546CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0350E22438CE4005546CD /* AppDelegate.swift */; };
+		07B0351422438CE4005546CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B0351222438CE4005546CD /* Main.storyboard */; };
+		07B0351622438CE5005546CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B0351522438CE5005546CD /* Assets.xcassets */; };
+		07B0351922438CE5005546CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B0351722438CE5005546CD /* LaunchScreen.storyboard */; };
+		07B0352422438CE5005546CD /* Tiki_Home_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0352322438CE5005546CD /* Tiki_Home_TestTests.swift */; };
+		07B0353022438EBE005546CD /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B0352F22438EBE005546CD /* Repository.swift */; };
+		07D68CA02243931C00443DD7 /* Keyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D68C9F2243931C00443DD7 /* Keyword.swift */; };
+		07D68CAA224398C000443DD7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D68CA9224398C000443DD7 /* HomeViewController.swift */; };
+		07F60B202243E34C00D40FA1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F60B1F2243E34C00D40FA1 /* HomeViewModel.swift */; };
+		07F60B23224407BD00D40FA1 /* KeywordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F60B21224407BD00D40FA1 /* KeywordCell.swift */; };
+		07F60B24224407BD00D40FA1 /* KeywordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F60B22224407BD00D40FA1 /* KeywordCell.xib */; };
+		07F60B2722440FEC00D40FA1 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F60B2622440FEC00D40FA1 /* Extension+UIColor.swift */; };
+		1EB12E387DFAF6B1F1A699F8 /* Pods_Tiki_Home_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBB995E3BD1B50C0331EAFF /* Pods_Tiki_Home_Test.framework */; };
+		4F53B511497559C99A20F6AB /* Pods_Tiki_Home_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E90F3662AAB8A7C32A6A05B /* Pods_Tiki_Home_TestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07B0352022438CE5005546CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07B0350322438CE3005546CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07B0350A22438CE4005546CD;
+			remoteInfo = "Tiki-Home-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07638A862244CDA70055C96A /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		07B0350B22438CE4005546CD /* Tiki-Home-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tiki-Home-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B0350E22438CE4005546CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07B0351322438CE4005546CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07B0351522438CE5005546CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07B0351822438CE5005546CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07B0351A22438CE5005546CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B0351F22438CE5005546CD /* Tiki-Home-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tiki-Home-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B0352322438CE5005546CD /* Tiki_Home_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiki_Home_TestTests.swift; sourceTree = "<group>"; };
+		07B0352522438CE5005546CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B0352F22438EBE005546CD /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		07D68C9F2243931C00443DD7 /* Keyword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyword.swift; sourceTree = "<group>"; };
+		07D68CA9224398C000443DD7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		07F60B1F2243E34C00D40FA1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		07F60B21224407BD00D40FA1 /* KeywordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordCell.swift; sourceTree = "<group>"; };
+		07F60B22224407BD00D40FA1 /* KeywordCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeywordCell.xib; sourceTree = "<group>"; };
+		07F60B2622440FEC00D40FA1 /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		0E90F3662AAB8A7C32A6A05B /* Pods_Tiki_Home_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tiki_Home_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94ED13E6AA8AFA4CD66D5F75 /* Pods-Tiki-Home-TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiki-Home-TestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tiki-Home-TestTests/Pods-Tiki-Home-TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0F572BD91F50AD45371966B /* Pods-Tiki-Home-TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiki-Home-TestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tiki-Home-TestTests/Pods-Tiki-Home-TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		CEBB995E3BD1B50C0331EAFF /* Pods_Tiki_Home_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tiki_Home_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E100D8486237BF7954237707 /* Pods-Tiki-Home-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiki-Home-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tiki-Home-Test/Pods-Tiki-Home-Test.release.xcconfig"; sourceTree = "<group>"; };
+		E4C03F16E1D9708EFF76686D /* Pods-Tiki-Home-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiki-Home-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tiki-Home-Test/Pods-Tiki-Home-Test.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07B0350822438CE4005546CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB12E387DFAF6B1F1A699F8 /* Pods_Tiki_Home_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B0351C22438CE5005546CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F53B511497559C99A20F6AB /* Pods_Tiki_Home_TestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B0350222438CE3005546CD = {
+			isa = PBXGroup;
+			children = (
+				07B0350D22438CE4005546CD /* Tiki-Home-Test */,
+				07B0352222438CE5005546CD /* Tiki-Home-TestTests */,
+				07B0350C22438CE4005546CD /* Products */,
+				A3707D19A6AADEB66FB7CAE0 /* Pods */,
+				DF00A25C6847077C0354C0EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07B0350C22438CE4005546CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07B0350B22438CE4005546CD /* Tiki-Home-Test.app */,
+				07B0351F22438CE5005546CD /* Tiki-Home-TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07B0350D22438CE4005546CD /* Tiki-Home-Test */ = {
+			isa = PBXGroup;
+			children = (
+				07F60B2522440FE400D40FA1 /* Extension */,
+				07D68C9E2243930D00443DD7 /* Model */,
+				07D68C9D2243930D00443DD7 /* Module */,
+				07B0352E22438EB1005546CD /* Repository */,
+				07B0350E22438CE4005546CD /* AppDelegate.swift */,
+				07B0351222438CE4005546CD /* Main.storyboard */,
+				07B0351522438CE5005546CD /* Assets.xcassets */,
+				07B0351722438CE5005546CD /* LaunchScreen.storyboard */,
+				07B0351A22438CE5005546CD /* Info.plist */,
+			);
+			path = "Tiki-Home-Test";
+			sourceTree = "<group>";
+		};
+		07B0352222438CE5005546CD /* Tiki-Home-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				07B0352322438CE5005546CD /* Tiki_Home_TestTests.swift */,
+				07B0352522438CE5005546CD /* Info.plist */,
+			);
+			path = "Tiki-Home-TestTests";
+			sourceTree = "<group>";
+		};
+		07B0352E22438EB1005546CD /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				07B0352F22438EBE005546CD /* Repository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		07D68C9D2243930D00443DD7 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				07D68CA5224398C000443DD7 /* Home */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		07D68C9E2243930D00443DD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07D68C9F2243931C00443DD7 /* Keyword.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07D68CA5224398C000443DD7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				07D68CA6224398C000443DD7 /* ViewModel */,
+				07D68CA7224398C000443DD7 /* View */,
+				07D68CA8224398C000443DD7 /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		07D68CA6224398C000443DD7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				07F60B1F2243E34C00D40FA1 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		07D68CA7224398C000443DD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07F60B21224407BD00D40FA1 /* KeywordCell.swift */,
+				07F60B22224407BD00D40FA1 /* KeywordCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07D68CA8224398C000443DD7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07D68CA9224398C000443DD7 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		07F60B2522440FE400D40FA1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				07F60B2622440FEC00D40FA1 /* Extension+UIColor.swift */,
+				07638A862244CDA70055C96A /* Extension+UIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A3707D19A6AADEB66FB7CAE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4C03F16E1D9708EFF76686D /* Pods-Tiki-Home-Test.debug.xcconfig */,
+				E100D8486237BF7954237707 /* Pods-Tiki-Home-Test.release.xcconfig */,
+				94ED13E6AA8AFA4CD66D5F75 /* Pods-Tiki-Home-TestTests.debug.xcconfig */,
+				C0F572BD91F50AD45371966B /* Pods-Tiki-Home-TestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF00A25C6847077C0354C0EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB995E3BD1B50C0331EAFF /* Pods_Tiki_Home_Test.framework */,
+				0E90F3662AAB8A7C32A6A05B /* Pods_Tiki_Home_TestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07B0350A22438CE4005546CD /* Tiki-Home-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B0352822438CE5005546CD /* Build configuration list for PBXNativeTarget "Tiki-Home-Test" */;
+			buildPhases = (
+				821ADA88811FA1ABDE1B6F5C /* [CP] Check Pods Manifest.lock */,
+				07B0350722438CE4005546CD /* Sources */,
+				07B0350822438CE4005546CD /* Frameworks */,
+				07B0350922438CE4005546CD /* Resources */,
+				2C0BD1E7094375E4C9D66011 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tiki-Home-Test";
+			productName = "Tiki-Home-Test";
+			productReference = 07B0350B22438CE4005546CD /* Tiki-Home-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07B0351E22438CE5005546CD /* Tiki-Home-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B0352B22438CE5005546CD /* Build configuration list for PBXNativeTarget "Tiki-Home-TestTests" */;
+			buildPhases = (
+				487C0C444B3E350AF48138ED /* [CP] Check Pods Manifest.lock */,
+				07B0351B22438CE5005546CD /* Sources */,
+				07B0351C22438CE5005546CD /* Frameworks */,
+				07B0351D22438CE5005546CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07B0352122438CE5005546CD /* PBXTargetDependency */,
+			);
+			name = "Tiki-Home-TestTests";
+			productName = "Tiki-Home-TestTests";
+			productReference = 07B0351F22438CE5005546CD /* Tiki-Home-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07B0350322438CE3005546CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Luan Huynh";
+				TargetAttributes = {
+					07B0350A22438CE4005546CD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					07B0351E22438CE5005546CD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 07B0350A22438CE4005546CD;
+					};
+				};
+			};
+			buildConfigurationList = 07B0350622438CE3005546CD /* Build configuration list for PBXProject "Tiki-Home-Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07B0350222438CE3005546CD;
+			productRefGroup = 07B0350C22438CE4005546CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07B0350A22438CE4005546CD /* Tiki-Home-Test */,
+				07B0351E22438CE5005546CD /* Tiki-Home-TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07B0350922438CE4005546CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B0351922438CE5005546CD /* LaunchScreen.storyboard in Resources */,
+				07F60B24224407BD00D40FA1 /* KeywordCell.xib in Resources */,
+				07B0351622438CE5005546CD /* Assets.xcassets in Resources */,
+				07B0351422438CE4005546CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B0351D22438CE5005546CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C0BD1E7094375E4C9D66011 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tiki-Home-Test/Pods-Tiki-Home-Test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tiki-Home-Test/Pods-Tiki-Home-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		487C0C444B3E350AF48138ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tiki-Home-TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		821ADA88811FA1ABDE1B6F5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tiki-Home-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07B0350722438CE4005546CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D68CA02243931C00443DD7 /* Keyword.swift in Sources */,
+				07F60B23224407BD00D40FA1 /* KeywordCell.swift in Sources */,
+				07638A872244CDA70055C96A /* Extension+UIView.swift in Sources */,
+				07F60B2722440FEC00D40FA1 /* Extension+UIColor.swift in Sources */,
+				07B0350F22438CE4005546CD /* AppDelegate.swift in Sources */,
+				07B0353022438EBE005546CD /* Repository.swift in Sources */,
+				07F60B202243E34C00D40FA1 /* HomeViewModel.swift in Sources */,
+				07D68CAA224398C000443DD7 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B0351B22438CE5005546CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B0352422438CE5005546CD /* Tiki_Home_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07B0352122438CE5005546CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07B0350A22438CE4005546CD /* Tiki-Home-Test */;
+			targetProxy = 07B0352022438CE5005546CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07B0351222438CE4005546CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B0351322438CE4005546CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07B0351722438CE5005546CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B0351822438CE5005546CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07B0352622438CE5005546CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07B0352722438CE5005546CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07B0352922438CE5005546CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4C03F16E1D9708EFF76686D /* Pods-Tiki-Home-Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tiki-Home-Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luanhuynh.Tiki-Home-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07B0352A22438CE5005546CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E100D8486237BF7954237707 /* Pods-Tiki-Home-Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tiki-Home-Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luanhuynh.Tiki-Home-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07B0352C22438CE5005546CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94ED13E6AA8AFA4CD66D5F75 /* Pods-Tiki-Home-TestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tiki-Home-TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luanhuynh.Tiki-Home-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tiki-Home-Test.app/Tiki-Home-Test";
+			};
+			name = Debug;
+		};
+		07B0352D22438CE5005546CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F572BD91F50AD45371966B /* Pods-Tiki-Home-TestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tiki-Home-TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luanhuynh.Tiki-Home-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tiki-Home-Test.app/Tiki-Home-Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07B0350622438CE3005546CD /* Build configuration list for PBXProject "Tiki-Home-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B0352622438CE5005546CD /* Debug */,
+				07B0352722438CE5005546CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B0352822438CE5005546CD /* Build configuration list for PBXNativeTarget "Tiki-Home-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B0352922438CE5005546CD /* Debug */,
+				07B0352A22438CE5005546CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B0352B22438CE5005546CD /* Build configuration list for PBXNativeTarget "Tiki-Home-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B0352C22438CE5005546CD /* Debug */,
+				07B0352D22438CE5005546CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07B0350322438CE3005546CD /* Project object */;
+}
